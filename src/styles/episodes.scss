@@ -1,0 +1,48 @@
+.episodes {
+  margin: 120px auto;
+  width: 80%;
+
+  &__input {
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 4px;
+    color: #363636;
+    margin: 10px auto;
+    width: 33%;
+    height: 40px;
+    outline: none;
+    border: 3px solid black;
+    border-radius: 10px;
+  }
+}
+
+.episodes-table {
+  width: 100%;
+  border: 5px solid black;
+  border-radius: 10px;
+
+  background-color: #fff;
+
+  &__head {
+    text-align: left;
+    background-color: black;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  &__episode {
+    &:nth-child(even) {
+      background-color: #e5f4f7;
+    }
+  }
+
+  thead th {
+    padding: 20px;
+  }
+
+  
+  tbody td {
+    padding: 20px;
+  }
+}
